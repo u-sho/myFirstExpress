@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0 auto;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1280px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+ul.messages {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.messages > li {
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+ul.messages > li:nth-child(odd) {
+  background-color: #efefef;
+}
+
+form.form {
+  background: rgba(0,0,0,0.15);
+  backdrop-filter: blur(10px);
+  margin: 0;
+  padding: 0.25rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+}
+
+form.form > input {
+  border: none;
+  margin: 0.25rem;
+  padding: 0 0.25rem;
+  flex-grow: 1;
+}
+input:focus {
+  outline: none;
+}
+
+form.form > button {
+  background: #333;
+  border: none;
+  padding: 0 1rem;
+  margin: 0.25rem;
+  border-radius: 3px;
+  outline: none;
+  color: #fff;
+}
